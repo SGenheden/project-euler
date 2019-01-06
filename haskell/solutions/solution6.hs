@@ -1,3 +1,6 @@
+module Solution6 (
+    solve6
+) where
 
 sum_of_squares :: Int -> Int
 sum_of_squares n = sum (map (^2) [1..n])
